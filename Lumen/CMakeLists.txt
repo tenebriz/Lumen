@@ -15,4 +15,6 @@ add_library(
     Lumen SHARED ${SOURCES}
 )
 
-target_include_directories(Lumen PUBLIC "${CMAKE_CURRENT_DIR}/src")
+target_include_directories(Lumen PUBLIC "${CMAKE_SOURCE_DIR}/Lumen/src")
+target_include_directories(Lumen PUBLIC "${CMAKE_SOURCE_DIR}/Lumen//vendor/spdlog/include")
+

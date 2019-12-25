@@ -4,6 +4,7 @@
 
 
 #include "Lumen/Application.h"
+#include "Lumen/Log.h"
 
 
 // ---Entry Point_-----------------
