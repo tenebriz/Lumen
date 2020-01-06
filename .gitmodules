@@ -1,3 +1,6 @@
 [submodule "Lumen/vendor/spdlog"]
 	path = Lumen/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Lumen/vendor/GLFW"]
+	path = Lumen/vendor/GLFW
+	url = https://github.com/glfw/glfw
